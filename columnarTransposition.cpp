@@ -205,6 +205,7 @@ lbl:
   case 2: decrypt();
     break;
   case 3:
+      return 0;
   default: cout << "\nInvalid input!";
   }
   goto lbl;
